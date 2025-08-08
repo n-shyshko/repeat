@@ -1,9 +1,7 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
-/* Common styles */
 
+  body {
+    font-family: 'Open Sans', sans-serif;
+ }
+
+ 
 
