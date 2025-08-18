@@ -1,4 +1,9 @@
-
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+  
   body {
     font-family: 'Open Sans', sans-serif;
  }
@@ -8,15 +13,30 @@
   margin-right: 20px;
  }
 
-.title {
-
-}
-
-.description {
-
-}
-
  .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  gap: 24px;
+  padding: 64px;
+  background-color: rgb(209, 231, 235);
 
+ }
+
+ .description {
+  font-weight: 400;
+  margin-bottom: 56px;
+ }
+
+ .carousel {
+  flex-direction: row;
+  gap: 24;
+
+ }
+
+ .swiper {
+   width: 600px;
+   height: 300px;
  }
 
